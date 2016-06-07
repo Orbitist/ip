@@ -22,7 +22,33 @@ var onVisCreated = function(vis, layers) {
   var originalSQL = sublayer.getSQL();
   var originalCartoCSS = sublayer.getCartoCSS();
   var widgets = new Widgets();
-  
+
+    addWidget(widgets, {
+    title: 'Lead Count PPB',
+    filters: [
+      {
+        title: "0 PPB",
+        condition: "lead_ppb = 0"
+      },
+      {
+        title: "0-5 PPB",
+        condition: "lead_ppb > 0 AND lead_ppb <= 5"
+      },
+      {
+        title: "5-10 PPB",
+        condition: "lead_ppb > 5 AND <= 10"
+      },
+      {
+        title: "10-15 PPB",
+        condition: "lead_ppb > 10 AND < 15"
+      },
+      {
+        title: "Greater than 15 PPB",
+        condition: "lead_ppb > 15"
+      }
+    ]
+  });  
+
     addWidget(widgets, {
     title: 'Year Sampled',
     filters: [
