@@ -1,1 +1,1 @@
-# cornell-sample-app
+# Lead Samples Buffalo App for Investigativepost.org
