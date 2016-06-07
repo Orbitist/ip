@@ -138,7 +138,7 @@ var onVisCreated = function(vis, layers) {
 };
 
 var loadStats = function(stats, widgets) {
-  var statsQuery = "SELECT COUNT(address) AS count, AVG(ndvi) AS avg, MAX(ndvi) AS max, MIN(ndvi) AS min FROM buffalo_lead_choropleth";
+  var statsQuery = "SELECT COUNT(address) AS count, AVG(ndvi) AS avg, MAX(ndvi) AS max, MIN(ndvi) AS min FROM lead_buffalo";
 
   var filterConditions = widgets.getActiveFilterConditions();
   if (filterConditions.length) {
@@ -147,7 +147,7 @@ var loadStats = function(stats, widgets) {
 
   console.log("Stats query: ", statsQuery);
 
-  cartodb.SQL({ user: 'orbitist'}).execute(statsQuery, function(data) {
+  cartodb.SQL({ user: 'investigativepost'}).execute(statsQuery, function(data) {
     var row = data.rows[0];
     stats.set({
       count: row.count,
