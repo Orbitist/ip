@@ -1,1 +1,1 @@
-# ip
+# cornell-sample-app
