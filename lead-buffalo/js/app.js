@@ -1,5 +1,5 @@
 var main = function(vis, layers) {
-  var vizjson = 'https://orbitist.cartodb.com/api/v2/viz/6686c0e0-de33-11e5-8b89-0ecfd53eb7d3/viz.json';
+  var vizjson = 'https://investigativepost.cartodb.com/api/v2/viz/ad998e52-2ceb-11e6-8d0f-0e787de82d45/viz.json';
   var options = {
     shareable: false,
     title: false,
@@ -24,31 +24,27 @@ var onVisCreated = function(vis, layers) {
   var widgets = new Widgets();
   
     addWidget(widgets, {
-    title: 'NDVI Ranges',
+    title: 'Year Sampled',
     filters: [
       {
-        title: "<0 NDVI",
-        condition: "ndvi < 0"
+        title: "2002",
+        condition: "year = 2002"
       },
       {
-        title: "0 - 0.1 NDVI",
-        condition: "ndvi >= 0 AND ndvi <= 0.1"
+        title: "2005",
+        condition: "year = 2005"
       },
       {
-        title: "0.1 - 0.2 NDVI",
-        condition: "ndvi >= 0.1 AND ndvi <= 0.2"
+        title: "2008",
+        condition: "year = 2008"
       },
       {
-        title: "0.2 - 0.3 NDVI",
-        condition: "ndvi >= 0.2 AND ndvi <= 0.3"
+        title: "2011",
+        condition: "year = 2011"
       },
       {
-        title: "0.3 - 0.4 NDVI",
-        condition: "ndvi >= 0.3 AND ndvi <= 0.4"
-      },
-      {
-        title: "0.4 - 0.5 NDVI",
-        condition: "ndvi >= 0.4 AND ndvi <= 0.5"
+        title: "2014",
+        condition: "year = 2014"
       }
     ]
   });
