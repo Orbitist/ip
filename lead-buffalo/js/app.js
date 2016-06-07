@@ -50,33 +50,67 @@ var onVisCreated = function(vis, layers) {
   });
   
     addWidget(widgets, {
-    title: 'Sensor',
+    title: 'Zipcode',
     filters: [
       {
-        title: "Sensor #1",
-        condition: "sensor = 1"
+        title: "14201",
+        condition: "zipcode = 14201"
       },
       {
-        title: "Sensor #2",
-        condition: "sensor = 2"
-      }
-    ]
-  });
-  
-    addWidget(widgets, {
-    title: 'Elevation',
-    filters: [
-      {
-        title: "210 - 220",
-        condition: "elevation >= 210 AND elevation <= 220"
+        title: "14204",
+        condition: "zipcode = 14204"
       },
       {
-        title: "220 - 230",
-        condition: "elevation >= 220 AND elevation <= 230"
+        title: "14206",
+        condition: "zipcode = 14206"
       },
       {
-        title: "230 - 240",
-        condition: "elevation >= 230 AND elevation <= 240"
+        title: "14207",
+        condition: "zipcode = 14207"
+      },
+      {
+        title: "14208",
+        condition: "zipcode = 14208"
+      },
+      {
+        title: "14209",
+        condition: "zipcode = 14209"
+      },
+      {
+        title: "14210",
+        condition: "zipcode = 14210"
+      },
+      {
+        title: "14211",
+        condition: "zipcode = 14211"
+      },
+      {
+        title: "14212",
+        condition: "zipcode = 14212"
+      },
+      {
+        title: "14213",
+        condition: "zipcode = 14213"
+      },
+        {
+        title: "14214",
+        condition: "zipcode = 14214"
+      },
+      {
+        title: "14215",
+        condition: "zipcode = 14215"
+      },
+      {
+        title: "14216",
+        condition: "zipcode = 14216"
+      },
+      {
+        title: "14220",
+        condition: "zipcode = 14220"
+      },
+      {
+        title: "14222",
+        condition: "zipcode = 14222"
       }
     ]
   });
