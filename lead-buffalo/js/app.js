@@ -138,7 +138,7 @@ var onVisCreated = function(vis, layers) {
 };
 
 var loadStats = function(stats, widgets) {
-  var statsQuery = "SELECT COUNT(ndvi) AS count, AVG(ndvi) AS avg, MAX(ndvi) AS max, MIN(ndvi) AS min FROM cornell_grape_data_sample";
+  var statsQuery = "SELECT COUNT(address) AS count FROM buffalo_lead";
 
   var filterConditions = widgets.getActiveFilterConditions();
   if (filterConditions.length) {
