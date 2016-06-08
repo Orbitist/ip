@@ -14,7 +14,6 @@ a {
   text-decoration: none;
 }
 
-/*
 #map {
   position: absolute;
   left: 0px;
@@ -22,15 +21,12 @@ a {
   bottom: 0px;
   right: 0px;
 }
-*/
-/*
 #widgets {
   position: absolute;
   right: 20px;
   top: 20px;
   width: 300px;
 }
-*/
 
 .widget {
   background: white;
@@ -111,8 +107,6 @@ a {
   margin-left: 12px;
   background: #fff;
   border-radius: 4px;
-  max-height: 100%;
-  overflow: scroll;
 }
 .widget-list {
   list-style-type: none;
