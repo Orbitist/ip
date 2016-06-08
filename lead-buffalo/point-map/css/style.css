@@ -94,7 +94,6 @@ a {
   overflow: hidden;
 }
 .widgets-container {
-	position: fixed;
   -webkit-flex: 0 0 calc(25% - 12px);
   -webkit-box-flex: 0;
   -ms-flex: 0 0  calc(25% - 12px);
@@ -103,7 +102,6 @@ a {
   margin-left: 12px;
   background: #fff;
   border-radius: 4px;
-  z-index: 1;
 }
 .widget-list {
   list-style-type: none;
