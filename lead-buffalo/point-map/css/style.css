@@ -107,6 +107,7 @@ a {
   margin-left: 12px;
   background: #fff;
   border-radius: 4px;
+  bottom: 12px;
 }
 .widget-list {
   list-style-type: none;
