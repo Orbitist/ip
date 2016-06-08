@@ -23,14 +23,10 @@ a {
   right: 0px;
 }
 */
-/*
 #widgets {
-  position: absolute;
-  right: 20px;
-  top: 20px;
-  width: 300px;
+	max-height: calc(100% - 12px);
+	overflow-y: scroll;
 }
-*/
 
 .widget {
   background: white;
