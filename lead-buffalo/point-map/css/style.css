@@ -15,12 +15,17 @@ a {
 }
 
 #map {
-  position: fixed;
+  position: absolute;
   left: 0px;
   top: 0px;
   bottom: 0px;
   right: 0px;
-  z-index: 0;
+}
+#widgets {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 300px;
 }
 
 .widget {
