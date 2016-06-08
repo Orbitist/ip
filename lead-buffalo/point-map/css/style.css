@@ -14,20 +14,6 @@ a {
   text-decoration: none;
 }
 
-/*
-#map {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  bottom: 0px;
-  right: 0px;
-}
-*/
-#widgets {
-	max-height: 100%;
-	overflow-y: scroll;
-}
-
 .widget {
   background: white;
   padding: 16px;
