@@ -107,7 +107,7 @@ a {
   margin-left: 12px;
   background: #fff;
   border-radius: 4px;
-  bottom: 12px;
+  max-height: 100%;
 }
 .widget-list {
   list-style-type: none;
