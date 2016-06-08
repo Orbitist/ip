@@ -24,7 +24,8 @@ a {
 }
 */
 #widgets {
-	max-height: calc(100% - 12px);
+	max-height: 100%;
+	margin-bottom: 12px;
 	overflow-y: scroll;
 }
 
