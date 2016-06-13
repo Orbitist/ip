@@ -3,6 +3,8 @@ layout: default
 title: Lead Buffalo
 description:  Investigative Post looks at lead samples in Buffalo NY from 2002-2014.
 ---
+{% include point-map.html %}
+
 {% include intro.html %}
 
 This is a test of the markdown.
@@ -18,5 +20,3 @@ and one more for good measure
 {% include heat-map.html %}
 
 {% include polygon-map.html %}
-
-{% include point-map.html %}
