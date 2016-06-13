@@ -14,3 +14,5 @@ this is another test
 and one more for good measure
 
 {% include bar-graph.html %}
+
+{% include heat-map.html %}
