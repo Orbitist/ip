@@ -16,3 +16,7 @@ and one more for good measure
 {% include bar-graph.html %}
 
 {% include heat-map.html %}
+
+{% include polygon-map.html %}
+
+{% include point-map.html %}
