@@ -1,7 +1,7 @@
 
 permalink: :year-:month-:day-:title
 
-highlighter: pygments
+highlighter: rouge
 markdown: kramdown
 
 title : Lead in Buffalo
