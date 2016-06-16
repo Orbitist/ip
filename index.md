@@ -3,11 +3,9 @@ layout: default
 title: Lead Buffalo
 description:  Investigative Post looks at lead samples in Buffalo NY from 2002-2014.
 ---
-{% include point-map.html %}
-
-<hr>
-
 {% include intro.html %}
+
+{% include point-map.html %}
 
 <hr>
 
