@@ -20,11 +20,13 @@ h1 {
 
 /* INTRO */
 .intro {
-  overflow: hidden;
+  position: relative;
+  overflow:hidden;
   height: 550px;
 }
 .intro img {
   position: absolute;
+  min-width: 100%;
   z-index: -1;
 }
 .intro .overlay {
