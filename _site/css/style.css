@@ -49,3 +49,21 @@ nav {
 .intro h1 small {
   color: white;
 }
+
+.credits p {
+  font-size: 12px;
+  margin: 5px;
+}
+.caption {
+  background-color: #eee;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 0 0 4px 4px;
+}
+.caption p {
+  font-size: 16px;
+  font-family: GnuolaneXl-Regular, Georgia, serif;
+  padding: 0;
+  margin: 0;
+}
