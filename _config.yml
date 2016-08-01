@@ -11,8 +11,8 @@ author :
   email : support@orbitist.com
   web : http://www.orbitist.com
 
-production_url : labs.orbitist.com/ip/lead-buffalo
+production_url : labs.orbitist.com/ip-lead-buffalo
 
-baseurl : http://labs.orbitist.com/ip/lead-buffalo
+baseurl : http://labs.orbitist.com/ip-lead-buffalo
 
 timezone : America/New_York
