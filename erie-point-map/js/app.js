@@ -188,7 +188,7 @@ var onVisCreated = function(vis, layers) {
 };
 
 var loadStats = function(stats, widgets) {
-  var statsQuery = "SELECT COUNT(address) AS count FROM lead_buffalo";
+  var statsQuery = "SELECT COUNT(address) AS count FROM erie_county_lead_points";
 
   var filterConditions = widgets.getActiveFilterConditions();
   if (filterConditions.length) {

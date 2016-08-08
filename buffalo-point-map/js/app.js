@@ -164,7 +164,7 @@ var onVisCreated = function(vis, layers) {
 };
 
 var loadStats = function(stats, widgets) {
-  var statsQuery = "SELECT COUNT(address) AS count FROM lead_buffalo";
+  var statsQuery = "SELECT COUNT(address) AS count FROM buffalo_lead";
 
   var filterConditions = widgets.getActiveFilterConditions();
   if (filterConditions.length) {
