@@ -28,23 +28,23 @@ var onVisCreated = function(vis, layers) {
     filters: [
       {
         title: "0 PPB",
-        condition: "lead_ppb = 0"
+        condition: "lead_result = 0"
       },
       {
         title: "0-5 PPB",
-        condition: "lead_ppb > 0 AND lead_ppb <= 5"
+        condition: "lead_result > 0 AND lead_ppb <= 5"
       },
       {
         title: "5-10 PPB",
-        condition: "lead_ppb > 5 AND lead_ppb <= 10"
+        condition: "lead_result > 5 AND lead_ppb <= 10"
       },
       {
         title: "10-15 PPB",
-        condition: "lead_ppb > 10 AND lead_ppb < 15"
+        condition: "lead_result > 10 AND lead_ppb < 15"
       },
       {
         title: "Greater than 15 PPB",
-        condition: "lead_ppb > 15"
+        condition: "lead_result > 15"
       }
     ]
   });
@@ -79,64 +79,88 @@ var onVisCreated = function(vis, layers) {
     title: 'Zipcode',
     filters: [
       {
-        title: "14201",
-        condition: "zipcode = 14201"
+        title: "14004",
+        condition: "zip = 14004"
       },
       {
-        title: "14204",
-        condition: "zipcode = 14204"
+        title: "14006",
+        condition: "zip = 14006"
+      },
+      {
+        title: "14031",
+        condition: "zip = 14031"
+      },
+      {
+        title: "14043",
+        condition: "zip = 14043"
+      },
+      {
+        title: "14047",
+        condition: "zip = 14047"
+      },
+      {
+        title: "14057",
+        condition: "zip = 14057"
+      },
+      {
+        title: "14075",
+        condition: "zip = 14075"
+      },
+      {
+        title: "14085",
+        condition: "zip = 14085"
+      },
+      {
+        title: "14086",
+        condition: "zip = 14086"
+      },
+      {
+        title: "14127",
+        condition: "zip = 14127"
+      },
+        {
+        title: "14150",
+        condition: "zip = 14150"
       },
       {
         title: "14206",
-        condition: "zipcode = 14206"
-      },
-      {
-        title: "14207",
-        condition: "zipcode = 14207"
-      },
-      {
-        title: "14208",
-        condition: "zipcode = 14208"
-      },
-      {
-        title: "14209",
-        condition: "zipcode = 14209"
-      },
-      {
-        title: "14210",
-        condition: "zipcode = 14210"
-      },
-      {
-        title: "14211",
-        condition: "zipcode = 14211"
-      },
-      {
-        title: "14212",
-        condition: "zipcode = 14212"
-      },
-      {
-        title: "14213",
-        condition: "zipcode = 14213"
-      },
-        {
-        title: "14214",
-        condition: "zipcode = 14214"
+        condition: "zip = 14206"
       },
       {
         title: "14215",
-        condition: "zipcode = 14215"
+        condition: "zip = 14215"
       },
       {
-        title: "14216",
-        condition: "zipcode = 14216"
+        title: "14217",
+        condition: "zip = 14217"
+      },
+      {
+        title: "14218",
+        condition: "zip = 14218"
+      },
+      {
+        title: "14219",
+        condition: "zip = 14219"
       },
       {
         title: "14220",
-        condition: "zipcode = 14220"
+        condition: "zip = 14220"
       },
       {
-        title: "14222",
-        condition: "zipcode = 14222"
+        title: "14221",
+        condition: "zip = 14221"
+      },
+      {
+        title: "14224",
+        condition: "zip = 14224"
+      },
+      {
+        title: "14225",
+        condition: "zip = 14225"
+      },
+      {
+        title: "14226",
+        condition: "zip = 14226"
       }
     ]
   });
