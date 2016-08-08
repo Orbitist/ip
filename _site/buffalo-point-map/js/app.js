@@ -1,5 +1,5 @@
 var main = function(vis, layers) {
-  var vizjson = 'https://investigativepost.cartodb.com/api/v2/viz/ad998e52-2ceb-11e6-8d0f-0e787de82d45/viz.json';
+  var vizjson = 'https://investigativepost.carto.com/api/v2/viz/b0970304-5b31-11e6-8287-0e05a8b3e3d7/viz.json';
   var options = {
     shareable: false,
     title: false,
@@ -47,7 +47,7 @@ var onVisCreated = function(vis, layers) {
         condition: "lead_ppb > 15"
       }
     ]
-  });  
+  });
 
     addWidget(widgets, {
     title: 'Year Sampled',
@@ -74,7 +74,7 @@ var onVisCreated = function(vis, layers) {
       }
     ]
   });
-  
+
     addWidget(widgets, {
     title: 'Zipcode',
     filters: [
