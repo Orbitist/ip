@@ -32,15 +32,15 @@ var onVisCreated = function(vis, layers) {
       },
       {
         title: "0-5 PPB",
-        condition: "lead_result > 0 AND lead_ppb <= 5"
+        condition: "lead_result > 0 AND lead_result <= 5"
       },
       {
         title: "5-10 PPB",
-        condition: "lead_result > 5 AND lead_ppb <= 10"
+        condition: "lead_result > 5 AND lead_result <= 10"
       },
       {
         title: "10-15 PPB",
-        condition: "lead_result > 10 AND lead_ppb < 15"
+        condition: "lead_result > 10 AND lead_result < 15"
       },
       {
         title: "Greater than 15 PPB",
